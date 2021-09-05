@@ -27,7 +27,7 @@ function getCss() {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-        padding: 6rem;
+        padding: 10rem 6rem;
     }
 
     .avatar {
@@ -39,25 +39,25 @@ function getCss() {
     }
 
     .name {
-        font-family: 'Open Sans Pro', sans-serif;
+        font-family: 'Open Sans', sans-serif;
         color: rgba(243,244,246);
         font-size: 1.8vw;
-        font-weight: 700;
+        font-weight: 600;
     }
 
     .link {
-        font-family: 'Open Sans Pro', sans-serif;
+        font-family: 'Open Sans', sans-serif;
         color: rgb(136, 153, 166);
         font-size: 1.8vw;
-        font-weight: 700;
+        font-weight: 600;
         margin: 0.8rem 0;
     }
 
     .twitter {
-        font-family: 'Open Sans Pro', sans-serif;
+        font-family: 'Open Sans', sans-serif;
         color: #f231a5;
         font-size: 1.8vw;
-        font-weight: 700;
+        font-weight: 600;
     }
 
     .box-info {
@@ -77,6 +77,7 @@ export function getHtml(parsedReq: ParsedRequest) {
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
     <style>
         ${getCss()}
     </style>
