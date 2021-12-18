@@ -87,7 +87,7 @@ export function getHtml(parsedReq: ParsedRequest) {
 
             <div class="box-info">
                 <img
-                    src="https://pbs.twimg.com/profile_images/1293615309841211392/njVpkDdg_400x400.jpg"
+                    src="https://pbs.twimg.com/profile_images/1465351725305327620/z44BYn1t_400x400.jpg"
                     alt="Willian Justen"
                     class="avatar"
                 />
